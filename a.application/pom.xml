@@ -10,15 +10,41 @@
   </parent>
   <artifactId>a.application</artifactId>
   <packaging>bwear</packaging>
+    <properties>
+    <appSpace>Test</appSpace>
+    <keystorePath></keystorePath>
+    <profile></profile>
+    <backup>false</backup>
+    <truststorePath></truststorePath>
+    <domainDesc></domainDesc>
+    <agentPort>8079</agentPort>
+    <truststorePassword></truststorePassword>
+    <agentAuth></agentAuth>
+    <agentHost>rbadgaiy-t430</agentHost>
+    <httpPort>8062</httpPort>
+    <appNode>TestAppnode</appNode>
+    <osgiPort></osgiPort>
+    <appSpaceDesc></appSpaceDesc>
+    <redeploy>true</redeploy>
+    <keystorePassword></keystorePassword>
+    <backupLocation></backupLocation>
+    <agentPassword></agentPassword>
+    <appNodeDesc></appNodeDesc>
+    <agentSSL>false</agentSSL>
+    <agentUsername></agentUsername>
+    <domain>Test</domain>
+    <deployToAdmin>true</deployToAdmin>
+  </properties>
   <build>
     <plugins>
       <plugin>
         <groupId>com.tibco.plugins</groupId>
         <artifactId>bw6-maven-plugin</artifactId>
-        <version>1.2.0</version>
+        <version>1.2.1</version>
         <extensions>true</extensions>
         <configuration />
       </plugin>
     </plugins>
   </build>
+
 </project>
